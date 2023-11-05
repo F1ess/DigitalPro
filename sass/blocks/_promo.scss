@@ -89,9 +89,8 @@
             margin-right: 53px;
         }
     }
-    &__btn {
-        width: 278px;
-        height: 62px;
+    .button {
+        padding: 20px;
         border-radius: 10px;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, #7E5ACA 0%, #7E5ACA 100%), radial-gradient(2243.61% 171.79% at 2.54% 0%, #007398 0%, #FE6DEF 21.47%, #6ECDEB 40.74%, rgba(166, 78, 174, 0.93) 59.49%, #57C0D7 74.6%, #C557D7 86.57%, #5CBBFF 100%);
         background-blend-mode: normal, hue, normal;
@@ -112,8 +111,8 @@
     }
     &__img {
         position: absolute;
-        right: 167px;
-        bottom: 54px;
+        right: -208px;
+        top: 23px;
         width: 866px;
         height: 676px;
         z-index: 1;
