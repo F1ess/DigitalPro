@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;700&family=Roboto:wght@500&display=swap');
 @import 'libs/bootstrap-reboot.min';
 
+@import 'blocks/titles';
+@import 'blocks/button';
 
 .container {
     position: relative;
@@ -9,3 +11,4 @@
 }
 
 @import 'blocks/promo';
+@import 'blocks/services';

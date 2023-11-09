@@ -1,0 +1,26 @@
+.title {
+    position: relative;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 85px;
+    letter-spacing: 2px;
+    &::before {
+        content: '';
+        background: url(../icons/title-before-black.svg) center center/cover no-repeat; 
+        width: 66px;
+        height: 19px;
+        position: absolute;
+        top: -30px;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        width: 454px;
+        height: 170px;
+        background: url(../icons/after/services.svg) center center/contain no-repeat;
+        top: -68px;
+        left: 142px;
+    }
+}
