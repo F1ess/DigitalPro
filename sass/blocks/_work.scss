@@ -1,0 +1,51 @@
+.work {
+    position: relative;
+    min-height: 678px;
+    background-color: #000000;
+    z-index: -3;
+    padding-top: 150px;
+    background-image: url(../img/work-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__title {
+        position: relative;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 53px;
+        &::before {
+            background: url(../icons/title-before-white.svg) center center/cover no-repeat; 
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            width: 739px;
+            height: 99px;
+            background: url(../icons/after/work.svg) center center/contain no-repeat;
+            top: -54px;
+            left: 362px;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &-item {
+        margin-top: 60px;
+        width: 270px;
+        &__img {
+            height: 133px;
+        }
+        &__descr {
+            margin-top: 20px;
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+}
